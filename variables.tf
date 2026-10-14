@@ -30,3 +30,8 @@ variable "enable_public_ip" {
   type    = bool
   default = false
 }
+
+variable "associate_public_ip_address" {
+  type = bool
+  default = false
+}
