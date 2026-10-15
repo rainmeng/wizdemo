@@ -33,5 +33,5 @@ variable "enable_public_ip" {
 
 variable "associate_public_ip_address" {
   type = bool
-  default = true
+  default = false
 }
