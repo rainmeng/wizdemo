@@ -5,7 +5,7 @@ resource "aws_instance" "demo" {
 
   subnet_id = var.subnet_id
 
-  associate_public_ip_address = true #var.associate_public_ip_address
+  associate_public_ip_address = true
 
   vpc_security_group_ids = [
     aws_security_group.demo.id
